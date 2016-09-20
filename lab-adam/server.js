@@ -2,7 +2,7 @@
 
 const net = require('net');
 const Client = require(`${__dirname}/model/client`);
-const wacks = require(`${__dirname}/lib/wacks   `);
+const wacks = require(`${__dirname}/lib/wacks`);
 const clientPool = require(`${__dirname}/lib/client-pool`);
 const PORT = process.env.PORT || 3000;
 const server = net.createServer();

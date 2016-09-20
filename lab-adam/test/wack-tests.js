@@ -18,7 +18,7 @@ describe('Wack Commands Module', function(){
         socket.on('data', function(data){
           var command = data.toString().split(' ').slice(0);
           wacks(command, data);
-        });
+        })0;
       });
       server.listen(3000, console.log('server running...'));
     });
